@@ -1,0 +1,12 @@
+
+DESC	 Command
+Link file that needs to be complied with file that will run in the browser	babel .\src\app.js --out-file=public/scripts/app.js --presets=env,react 
+Watch from changes in the file	babel .\src\app.js --out-file=public/scripts/app.js --presets=env,react --watch
+
+babel .\src\playground\es6-let-const.js --out-file=public/scripts/app.js --presets=env,react --watch
+
+babel .\src\playground\es6-arrow-function2.js --out-file=public/scripts/app.js --presets=env,react --watch
+
+babel .\src\playground\build-it-visible.js --out-file=public/scripts/app.js --presets=env,react --watch
+
+babel .\src\playground\es6-classes.js --out-file=public/scripts/app.js --presets=env,react --watch
