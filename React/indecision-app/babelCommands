@@ -10,3 +10,5 @@ babel .\src\playground\es6-arrow-function2.js --out-file=public/scripts/app.js -
 babel .\src\playground\build-it-visible.js --out-file=public/scripts/app.js --presets=env,react --watch
 
 babel .\src\playground\es6-classes.js --out-file=public/scripts/app.js --presets=env,react --watch
+
+babel .\src\playground\counterExample.js --out-file=public/scripts/app.js --presets=env,react --watch
